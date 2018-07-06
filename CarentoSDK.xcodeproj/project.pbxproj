@@ -7,13 +7,314 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC5880EF20EF058D00F4C70B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5880EE20EF058D00F4C70B /* Alamofire.framework */; };
+		AC5880F020EF5E4600F4C70B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5880EE20EF058D00F4C70B /* Alamofire.framework */; };
+		AC5880F120EF5E4600F4C70B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC5880EE20EF058D00F4C70B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC7707FA20E5DC400016CFF3 /* ServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7707F920E5DC400016CFF3 /* ServiceListViewController.swift */; };
+		AC7707FF20E5E1CD0016CFF3 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7707FE20E5E1CD0016CFF3 /* HTTPClient.swift */; };
+		AC77080220E5E3BC0016CFF3 /* ErrorHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77080120E5E3BC0016CFF3 /* ErrorHandle.swift */; };
+		AC77080420E5E48A0016CFF3 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77080320E5E48A0016CFF3 /* Global.swift */; };
+		AC77080620E5E4BD0016CFF3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77080520E5E4BD0016CFF3 /* Utils.swift */; };
+		AC77080820E5E6F40016CFF3 /* CarentoSDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77080720E5E6F40016CFF3 /* CarentoSDKManager.swift */; };
+		AC77080E20E5E9A30016CFF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77080D20E5E9A30016CFF3 /* Constants.swift */; };
+		AC77081020E5ECE20016CFF3 /* SDKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77080F20E5ECE20016CFF3 /* SDKNavigationController.swift */; };
+		AC77081420E60F600016CFF3 /* FWActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = AC77081220E60F600016CFF3 /* FWActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC77081520E60F600016CFF3 /* FWActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC77081320E60F600016CFF3 /* FWActivityIndicatorView.m */; };
+		AC77081F20E627740016CFF3 /* CRNotificationsMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC77081820E627740016CFF3 /* CRNotificationsMedia.xcassets */; };
+		AC77082020E627740016CFF3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77081A20E627740016CFF3 /* Colors.swift */; };
+		AC77082120E627740016CFF3 /* CRNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77081B20E627740016CFF3 /* CRNotification.swift */; };
+		AC77082220E627740016CFF3 /* CRNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77081C20E627740016CFF3 /* CRNotifications.swift */; };
+		AC77082320E627740016CFF3 /* CRNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77081D20E627740016CFF3 /* CRNotificationType.swift */; };
+		AC77082420E627740016CFF3 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77081E20E627740016CFF3 /* DeviceManager.swift */; };
+		AC77082720E629AB0016CFF3 /* ServiceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77082620E629AB0016CFF3 /* ServiceObject.swift */; };
+		AC77082A20E62EFA0016CFF3 /* CityServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77082920E62EF90016CFF3 /* CityServiceCell.swift */; };
+		AC77082C20E62F110016CFF3 /* CarentoSDK.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC77082B20E62F110016CFF3 /* CarentoSDK.storyboard */; };
+		AC77082E20E6341B0016CFF3 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC77082D20E6341A0016CFF3 /* SDWebImage.framework */; };
+		AC77083120E6346D0016CFF3 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC77082D20E6341A0016CFF3 /* SDWebImage.framework */; };
+		AC77083220E6346D0016CFF3 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC77082D20E6341A0016CFF3 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC77083420E63F5E0016CFF3 /* PriceRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77083320E63F5E0016CFF3 /* PriceRouteViewController.swift */; };
+		AC77083A20E641AB0016CFF3 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77083620E641AA0016CFF3 /* DateCollectionViewCell.swift */; };
+		AC77083B20E641AB0016CFF3 /* DateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77083720E641AB0016CFF3 /* DateTimePicker.swift */; };
+		AC77083C20E641AB0016CFF3 /* FullDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77083820E641AB0016CFF3 /* FullDateCollectionViewCell.swift */; };
+		AC77083D20E641AB0016CFF3 /* StepCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77083920E641AB0016CFF3 /* StepCollectionViewFlowLayout.swift */; };
+		AC77084020E644100016CFF3 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC77083F20E644100016CFF3 /* SVProgressHUD.framework */; };
+		AC77084320E6443F0016CFF3 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC77083F20E644100016CFF3 /* SVProgressHUD.framework */; };
+		AC77084420E6443F0016CFF3 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC77083F20E644100016CFF3 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC77084620E6447F0016CFF3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77084520E6447F0016CFF3 /* BaseViewController.swift */; };
+		AC77084820E644AB0016CFF3 /* CRTLocationInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77084720E644AB0016CFF3 /* CRTLocationInputTextField.swift */; };
+		AC77084B20E644C30016CFF3 /* CarTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77084920E644C30016CFF3 /* CarTypeView.swift */; };
+		AC77084C20E644C30016CFF3 /* CheckboxListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77084A20E644C30016CFF3 /* CheckboxListView.swift */; };
+		AC77084E20E645540016CFF3 /* BookObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77084D20E645540016CFF3 /* BookObject.swift */; };
+		AC77087E20E645950016CFF3 /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085020E645950016CFF3 /* NotoSerif-Bold.ttf */; };
+		AC77087F20E645950016CFF3 /* NotoSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085120E645950016CFF3 /* NotoSerif-BoldItalic.ttf */; };
+		AC77088020E645950016CFF3 /* NotoSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085220E645950016CFF3 /* NotoSerif-Italic.ttf */; };
+		AC77088120E645950016CFF3 /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085320E645950016CFF3 /* NotoSerif-Regular.ttf */; };
+		AC77088220E645950016CFF3 /* SFCompactDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085420E645950016CFF3 /* SFCompactDisplay-Black.ttf */; };
+		AC77088320E645950016CFF3 /* SFCompactDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085520E645950016CFF3 /* SFCompactDisplay-Bold.ttf */; };
+		AC77088420E645950016CFF3 /* SFCompactDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085620E645950016CFF3 /* SFCompactDisplay-Heavy.ttf */; };
+		AC77088520E645950016CFF3 /* SFCompactDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085720E645950016CFF3 /* SFCompactDisplay-Light.ttf */; };
+		AC77088620E645950016CFF3 /* SFCompactDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085820E645950016CFF3 /* SFCompactDisplay-Medium.ttf */; };
+		AC77088720E645950016CFF3 /* SFCompactDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085920E645950016CFF3 /* SFCompactDisplay-Regular.ttf */; };
+		AC77088820E645950016CFF3 /* SFCompactDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085A20E645950016CFF3 /* SFCompactDisplay-Semibold.ttf */; };
+		AC77088920E645950016CFF3 /* SFCompactDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085B20E645950016CFF3 /* SFCompactDisplay-Thin.ttf */; };
+		AC77088A20E645950016CFF3 /* SFCompactDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085C20E645950016CFF3 /* SFCompactDisplay-Ultralight.ttf */; };
+		AC77088B20E645950016CFF3 /* SFCompactText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085D20E645950016CFF3 /* SFCompactText-Bold.ttf */; };
+		AC77088C20E645950016CFF3 /* SFCompactText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085E20E645950016CFF3 /* SFCompactText-BoldItalic.ttf */; };
+		AC77088D20E645950016CFF3 /* SFCompactText-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77085F20E645950016CFF3 /* SFCompactText-Heavy.ttf */; };
+		AC77088E20E645950016CFF3 /* SFCompactText-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086020E645950016CFF3 /* SFCompactText-HeavyItalic.ttf */; };
+		AC77088F20E645950016CFF3 /* SFCompactText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086120E645950016CFF3 /* SFCompactText-Light.ttf */; };
+		AC77089020E645950016CFF3 /* SFCompactText-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086220E645950016CFF3 /* SFCompactText-LightItalic.ttf */; };
+		AC77089120E645950016CFF3 /* SFCompactText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086320E645950016CFF3 /* SFCompactText-Medium.ttf */; };
+		AC77089220E645950016CFF3 /* SFCompactText-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086420E645950016CFF3 /* SFCompactText-MediumItalic.ttf */; };
+		AC77089320E645950016CFF3 /* SFCompactText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086520E645950016CFF3 /* SFCompactText-Regular.ttf */; };
+		AC77089420E645950016CFF3 /* SFCompactText-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086620E645950016CFF3 /* SFCompactText-RegularItalic.ttf */; };
+		AC77089520E645950016CFF3 /* SFCompactText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086720E645950016CFF3 /* SFCompactText-Semibold.ttf */; };
+		AC77089620E645950016CFF3 /* SFCompactText-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086820E645950016CFF3 /* SFCompactText-SemiboldItalic.ttf */; };
+		AC77089720E645950016CFF3 /* SFUIDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086920E645950016CFF3 /* SFUIDisplay-Black.ttf */; };
+		AC77089820E645950016CFF3 /* SFUIDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086A20E645950016CFF3 /* SFUIDisplay-Bold.ttf */; };
+		AC77089920E645950016CFF3 /* SFUIDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086B20E645950016CFF3 /* SFUIDisplay-Heavy.ttf */; };
+		AC77089A20E645950016CFF3 /* SFUIDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086C20E645950016CFF3 /* SFUIDisplay-Light.ttf */; };
+		AC77089B20E645950016CFF3 /* SFUIDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086D20E645950016CFF3 /* SFUIDisplay-Medium.ttf */; };
+		AC77089C20E645950016CFF3 /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086E20E645950016CFF3 /* SFUIDisplay-Regular.ttf */; };
+		AC77089D20E645950016CFF3 /* SFUIDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77086F20E645950016CFF3 /* SFUIDisplay-Semibold.ttf */; };
+		AC77089E20E645950016CFF3 /* SFUIDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087020E645950016CFF3 /* SFUIDisplay-Thin.ttf */; };
+		AC77089F20E645950016CFF3 /* SFUIDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087120E645950016CFF3 /* SFUIDisplay-Ultralight.ttf */; };
+		AC7708A020E645950016CFF3 /* SFUIText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087220E645950016CFF3 /* SFUIText-Bold.ttf */; };
+		AC7708A120E645950016CFF3 /* SFUIText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087320E645950016CFF3 /* SFUIText-BoldItalic.ttf */; };
+		AC7708A220E645950016CFF3 /* SFUIText-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087420E645950016CFF3 /* SFUIText-Heavy.ttf */; };
+		AC7708A320E645950016CFF3 /* SFUIText-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087520E645950016CFF3 /* SFUIText-HeavyItalic.ttf */; };
+		AC7708A420E645950016CFF3 /* SFUIText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087620E645950016CFF3 /* SFUIText-Light.ttf */; };
+		AC7708A520E645950016CFF3 /* SFUIText-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087720E645950016CFF3 /* SFUIText-LightItalic.ttf */; };
+		AC7708A620E645950016CFF3 /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087820E645950016CFF3 /* SFUIText-Medium.ttf */; };
+		AC7708A720E645950016CFF3 /* SFUIText-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087920E645950016CFF3 /* SFUIText-MediumItalic.ttf */; };
+		AC7708A820E645950016CFF3 /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087A20E645950016CFF3 /* SFUIText-Regular.ttf */; };
+		AC7708A920E645950016CFF3 /* SFUIText-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087B20E645950016CFF3 /* SFUIText-RegularItalic.ttf */; };
+		AC7708AA20E645950016CFF3 /* SFUIText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087C20E645950016CFF3 /* SFUIText-Semibold.ttf */; };
+		AC7708AB20E645950016CFF3 /* SFUIText-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC77087D20E645950016CFF3 /* SFUIText-SemiboldItalic.ttf */; };
+		AC7708AD20E645B00016CFF3 /* DriverObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7708AC20E645B00016CFF3 /* DriverObject.swift */; };
+		AC7708AF20E645BA0016CFF3 /* RoutingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7708AE20E645BA0016CFF3 /* RoutingObject.swift */; };
+		AC7708B220E6999D0016CFF3 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7708B020E6999C0016CFF3 /* SearchResultsController.swift */; };
+		AC7708B320E6999D0016CFF3 /* SearchLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7708B120E6999D0016CFF3 /* SearchLocationViewController.swift */; };
+		AC7708D220E729B30016CFF3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708D120E729B30016CFF3 /* MapKit.framework */; };
+		AC7708D420E72A060016CFF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708D320E72A060016CFF3 /* SystemConfiguration.framework */; };
+		AC7708D620E72A0C0016CFF3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708D520E72A0C0016CFF3 /* CoreData.framework */; };
+		AC7708D820E72A200016CFF3 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708D720E72A200016CFF3 /* libz.1.2.8.tbd */; };
+		AC7708DA20E72A790016CFF3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708D920E72A790016CFF3 /* Security.framework */; };
+		AC7708DC20E72A850016CFF3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708DB20E72A850016CFF3 /* QuartzCore.framework */; };
+		AC7708DE20E72A8B0016CFF3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708DD20E72A8B0016CFF3 /* OpenGLES.framework */; };
+		AC7708E020E72AB70016CFF3 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708DF20E72AB70016CFF3 /* libicucore.tbd */; };
+		AC7708E220E72AC30016CFF3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E120E72AC30016CFF3 /* libc++.tbd */; };
+		AC7708E420E72ACB0016CFF3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E320E72ACB0016CFF3 /* ImageIO.framework */; };
+		AC7708E620E72AD20016CFF3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E520E72AD20016CFF3 /* GLKit.framework */; };
+		AC7708E820E72ADA0016CFF3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E720E72ADA0016CFF3 /* CoreText.framework */; };
+		AC7708EA20E72ADF0016CFF3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E920E72ADF0016CFF3 /* CoreLocation.framework */; };
+		AC7708EC20E72AEC0016CFF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708EB20E72AEC0016CFF3 /* CoreGraphics.framework */; };
+		AC7708EE20E72AF20016CFF3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708ED20E72AF20016CFF3 /* CoreBluetooth.framework */; };
+		AC7708F020E72AFB0016CFF3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708EF20E72AFB0016CFF3 /* AVFoundation.framework */; };
+		AC7708F220E72B010016CFF3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708F120E72B010016CFF3 /* Accelerate.framework */; };
+		AC7708F320E72B760016CFF3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708F120E72B010016CFF3 /* Accelerate.framework */; };
+		AC7708F420E72BA50016CFF3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708EF20E72AFB0016CFF3 /* AVFoundation.framework */; };
+		AC7708F520E72BA50016CFF3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708ED20E72AF20016CFF3 /* CoreBluetooth.framework */; };
+		AC7708F620E72BA50016CFF3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708D520E72A0C0016CFF3 /* CoreData.framework */; };
+		AC7708F720E72BA50016CFF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708EB20E72AEC0016CFF3 /* CoreGraphics.framework */; };
+		AC7708F820E72BA50016CFF3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E920E72ADF0016CFF3 /* CoreLocation.framework */; };
+		AC7708F920E72BA50016CFF3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E720E72ADA0016CFF3 /* CoreText.framework */; };
+		AC7708FD20E72BA60016CFF3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708FA20E72BA50016CFF3 /* CoreFoundation.framework */; };
+		AC7708FE20E72BA60016CFF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708FB20E72BA50016CFF3 /* Foundation.framework */; };
+		AC7708FF20E72BA60016CFF3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708FC20E72BA60016CFF3 /* CoreImage.framework */; };
+		AC77090020E72BB10016CFF3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708DD20E72A8B0016CFF3 /* OpenGLES.framework */; };
+		AC77090120E72BB60016CFF3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708DB20E72A850016CFF3 /* QuartzCore.framework */; };
+		AC77090220E72BBA0016CFF3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708D920E72A790016CFF3 /* Security.framework */; };
+		AC77090320E72BBE0016CFF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708D320E72A060016CFF3 /* SystemConfiguration.framework */; };
+		AC77090420E72BD10016CFF3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E520E72AD20016CFF3 /* GLKit.framework */; };
+		AC77090520E72BD70016CFF3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E320E72ACB0016CFF3 /* ImageIO.framework */; };
+		AC77090620E72BE50016CFF3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708E120E72AC30016CFF3 /* libc++.tbd */; };
+		AC77090720E72BEA0016CFF3 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708D720E72A200016CFF3 /* libz.1.2.8.tbd */; };
+		AC77090820E72BF00016CFF3 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7708DF20E72AB70016CFF3 /* libicucore.tbd */; };
+		AC77090A20E72BFE0016CFF3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC77090920E72BFE0016CFF3 /* CoreTelephony.framework */; };
+		ACCF404620E78F4500111CBD /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF404520E78F4500111CBD /* GooglePlaces.framework */; };
+		ACCF404820E78F5500111CBD /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF404720E78F5400111CBD /* GoogleMapsBase.framework */; };
+		ACCF404B20E78F6200111CBD /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF404920E78F6100111CBD /* GoogleMapsCore.framework */; };
+		ACCF404C20E78F6200111CBD /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF404A20E78F6200111CBD /* GoogleMaps.framework */; };
+		ACCF404E20E78F6F00111CBD /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ACCF404D20E78F6F00111CBD /* GooglePlaces.bundle */; };
+		ACCF405020E78F7C00111CBD /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ACCF404F20E78F7C00111CBD /* GoogleMaps.bundle */; };
+		ACCF405620E7994B00111CBD /* FontLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCF405420E7994B00111CBD /* FontLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACCF405720E7994B00111CBD /* FontLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCF405520E7994B00111CBD /* FontLoader.m */; };
+		ACCF405A20E9CA1F00111CBD /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF405920E9CA1F00111CBD /* CustomAnimation.swift */; };
+		ACCF405C20E9D15B00111CBD /* PassThroughTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF405B20E9D15B00111CBD /* PassThroughTableView.swift */; };
 		ACF5960D20E1E2FB00EAD7E3 /* CarentoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF5960B20E1E2FB00EAD7E3 /* CarentoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACF5961A20E2397900EAD7E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5961920E2397900EAD7E3 /* AppDelegate.swift */; };
+		ACF5961C20E2397900EAD7E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5961B20E2397900EAD7E3 /* ViewController.swift */; };
+		ACF5961F20E2397900EAD7E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF5961D20E2397900EAD7E3 /* Main.storyboard */; };
+		ACF5962120E2397900EAD7E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5962020E2397900EAD7E3 /* Assets.xcassets */; };
+		ACF5962420E2397900EAD7E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF5962220E2397900EAD7E3 /* LaunchScreen.storyboard */; };
+		ACF5962B20E4972E00EAD7E3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5962A20E4972E00EAD7E3 /* Media.xcassets */; };
+		ACF5963020E499DB00EAD7E3 /* CarentoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF5960820E1E2FB00EAD7E3 /* CarentoSDK.framework */; };
+		ACF5963120E499DB00EAD7E3 /* CarentoSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACF5960820E1E2FB00EAD7E3 /* CarentoSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		ACF5963220E499DB00EAD7E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF595FF20E1E2FA00EAD7E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF5960720E1E2FB00EAD7E3;
+			remoteInfo = CarentoSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC7708D020E7299F0016CFF3 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF5963420E499DC00EAD7E3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ACF5963120E499DB00EAD7E3 /* CarentoSDK.framework in Embed Frameworks */,
+				AC77083220E6346D0016CFF3 /* SDWebImage.framework in Embed Frameworks */,
+				AC77084420E6443F0016CFF3 /* SVProgressHUD.framework in Embed Frameworks */,
+				AC5880F120EF5E4600F4C70B /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AC5880EE20EF058D00F4C70B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		AC7707F920E5DC400016CFF3 /* ServiceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceListViewController.swift; sourceTree = "<group>"; };
+		AC7707FE20E5E1CD0016CFF3 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		AC77080120E5E3BC0016CFF3 /* ErrorHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandle.swift; sourceTree = "<group>"; };
+		AC77080320E5E48A0016CFF3 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		AC77080520E5E4BD0016CFF3 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AC77080720E5E6F40016CFF3 /* CarentoSDKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarentoSDKManager.swift; sourceTree = "<group>"; };
+		AC77080D20E5E9A30016CFF3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC77080F20E5ECE20016CFF3 /* SDKNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKNavigationController.swift; sourceTree = "<group>"; };
+		AC77081220E60F600016CFF3 /* FWActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWActivityIndicatorView.h; sourceTree = "<group>"; };
+		AC77081320E60F600016CFF3 /* FWActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWActivityIndicatorView.m; sourceTree = "<group>"; };
+		AC77081820E627740016CFF3 /* CRNotificationsMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CRNotificationsMedia.xcassets; sourceTree = "<group>"; };
+		AC77081A20E627740016CFF3 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AC77081B20E627740016CFF3 /* CRNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRNotification.swift; sourceTree = "<group>"; };
+		AC77081C20E627740016CFF3 /* CRNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRNotifications.swift; sourceTree = "<group>"; };
+		AC77081D20E627740016CFF3 /* CRNotificationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRNotificationType.swift; sourceTree = "<group>"; };
+		AC77081E20E627740016CFF3 /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		AC77082620E629AB0016CFF3 /* ServiceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceObject.swift; sourceTree = "<group>"; };
+		AC77082920E62EF90016CFF3 /* CityServiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityServiceCell.swift; sourceTree = "<group>"; };
+		AC77082B20E62F110016CFF3 /* CarentoSDK.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarentoSDK.storyboard; sourceTree = "<group>"; };
+		AC77082D20E6341A0016CFF3 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		AC77083320E63F5E0016CFF3 /* PriceRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceRouteViewController.swift; sourceTree = "<group>"; };
+		AC77083620E641AA0016CFF3 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC77083720E641AB0016CFF3 /* DateTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimePicker.swift; sourceTree = "<group>"; };
+		AC77083820E641AB0016CFF3 /* FullDateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC77083920E641AB0016CFF3 /* StepCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		AC77083F20E644100016CFF3 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
+		AC77084520E6447F0016CFF3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AC77084720E644AB0016CFF3 /* CRTLocationInputTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRTLocationInputTextField.swift; sourceTree = "<group>"; };
+		AC77084920E644C30016CFF3 /* CarTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTypeView.swift; sourceTree = "<group>"; };
+		AC77084A20E644C30016CFF3 /* CheckboxListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxListView.swift; sourceTree = "<group>"; };
+		AC77084D20E645540016CFF3 /* BookObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookObject.swift; sourceTree = "<group>"; };
+		AC77085020E645950016CFF3 /* NotoSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Bold.ttf"; sourceTree = "<group>"; };
+		AC77085120E645950016CFF3 /* NotoSerif-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AC77085220E645950016CFF3 /* NotoSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Italic.ttf"; sourceTree = "<group>"; };
+		AC77085320E645950016CFF3 /* NotoSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Regular.ttf"; sourceTree = "<group>"; };
+		AC77085420E645950016CFF3 /* SFCompactDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Black.ttf"; sourceTree = "<group>"; };
+		AC77085520E645950016CFF3 /* SFCompactDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		AC77085620E645950016CFF3 /* SFCompactDisplay-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Heavy.ttf"; sourceTree = "<group>"; };
+		AC77085720E645950016CFF3 /* SFCompactDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Light.ttf"; sourceTree = "<group>"; };
+		AC77085820E645950016CFF3 /* SFCompactDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		AC77085920E645950016CFF3 /* SFCompactDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		AC77085A20E645950016CFF3 /* SFCompactDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		AC77085B20E645950016CFF3 /* SFCompactDisplay-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Thin.ttf"; sourceTree = "<group>"; };
+		AC77085C20E645950016CFF3 /* SFCompactDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		AC77085D20E645950016CFF3 /* SFCompactText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Bold.ttf"; sourceTree = "<group>"; };
+		AC77085E20E645950016CFF3 /* SFCompactText-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AC77085F20E645950016CFF3 /* SFCompactText-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Heavy.ttf"; sourceTree = "<group>"; };
+		AC77086020E645950016CFF3 /* SFCompactText-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		AC77086120E645950016CFF3 /* SFCompactText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Light.ttf"; sourceTree = "<group>"; };
+		AC77086220E645950016CFF3 /* SFCompactText-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-LightItalic.ttf"; sourceTree = "<group>"; };
+		AC77086320E645950016CFF3 /* SFCompactText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Medium.ttf"; sourceTree = "<group>"; };
+		AC77086420E645950016CFF3 /* SFCompactText-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AC77086520E645950016CFF3 /* SFCompactText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Regular.ttf"; sourceTree = "<group>"; };
+		AC77086620E645950016CFF3 /* SFCompactText-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-RegularItalic.ttf"; sourceTree = "<group>"; };
+		AC77086720E645950016CFF3 /* SFCompactText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Semibold.ttf"; sourceTree = "<group>"; };
+		AC77086820E645950016CFF3 /* SFCompactText-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		AC77086920E645950016CFF3 /* SFUIDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Black.ttf"; sourceTree = "<group>"; };
+		AC77086A20E645950016CFF3 /* SFUIDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		AC77086B20E645950016CFF3 /* SFUIDisplay-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Heavy.ttf"; sourceTree = "<group>"; };
+		AC77086C20E645950016CFF3 /* SFUIDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Light.ttf"; sourceTree = "<group>"; };
+		AC77086D20E645950016CFF3 /* SFUIDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		AC77086E20E645950016CFF3 /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		AC77086F20E645950016CFF3 /* SFUIDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		AC77087020E645950016CFF3 /* SFUIDisplay-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Thin.ttf"; sourceTree = "<group>"; };
+		AC77087120E645950016CFF3 /* SFUIDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		AC77087220E645950016CFF3 /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		AC77087320E645950016CFF3 /* SFUIText-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AC77087420E645950016CFF3 /* SFUIText-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Heavy.ttf"; sourceTree = "<group>"; };
+		AC77087520E645950016CFF3 /* SFUIText-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		AC77087620E645950016CFF3 /* SFUIText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		AC77087720E645950016CFF3 /* SFUIText-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-LightItalic.ttf"; sourceTree = "<group>"; };
+		AC77087820E645950016CFF3 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		AC77087920E645950016CFF3 /* SFUIText-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AC77087A20E645950016CFF3 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		AC77087B20E645950016CFF3 /* SFUIText-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-RegularItalic.ttf"; sourceTree = "<group>"; };
+		AC77087C20E645950016CFF3 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		AC77087D20E645950016CFF3 /* SFUIText-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		AC7708AC20E645B00016CFF3 /* DriverObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverObject.swift; sourceTree = "<group>"; };
+		AC7708AE20E645BA0016CFF3 /* RoutingObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingObject.swift; sourceTree = "<group>"; };
+		AC7708B020E6999C0016CFF3 /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		AC7708B120E6999D0016CFF3 /* SearchLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLocationViewController.swift; sourceTree = "<group>"; };
+		AC7708D120E729B30016CFF3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AC7708D320E72A060016CFF3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AC7708D520E72A0C0016CFF3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC7708D720E72A200016CFF3 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		AC7708D920E72A790016CFF3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AC7708DB20E72A850016CFF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AC7708DD20E72A8B0016CFF3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AC7708DF20E72AB70016CFF3 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		AC7708E120E72AC30016CFF3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AC7708E320E72ACB0016CFF3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		AC7708E520E72AD20016CFF3 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		AC7708E720E72ADA0016CFF3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		AC7708E920E72ADF0016CFF3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AC7708EB20E72AEC0016CFF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC7708ED20E72AF20016CFF3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AC7708EF20E72AFB0016CFF3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AC7708F120E72B010016CFF3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		AC7708FA20E72BA50016CFF3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		AC7708FB20E72BA50016CFF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC7708FC20E72BA60016CFF3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		AC77090920E72BFE0016CFF3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ACCF404520E78F4500111CBD /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
+		ACCF404720E78F5400111CBD /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		ACCF404920E78F6100111CBD /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		ACCF404A20E78F6200111CBD /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		ACCF404D20E78F6F00111CBD /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		ACCF404F20E78F7C00111CBD /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		ACCF405420E7994B00111CBD /* FontLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontLoader.h; sourceTree = "<group>"; };
+		ACCF405520E7994B00111CBD /* FontLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontLoader.m; sourceTree = "<group>"; };
+		ACCF405920E9CA1F00111CBD /* CustomAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
+		ACCF405B20E9D15B00111CBD /* PassThroughTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassThroughTableView.swift; sourceTree = "<group>"; };
 		ACF5960820E1E2FB00EAD7E3 /* CarentoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarentoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF5960B20E1E2FB00EAD7E3 /* CarentoSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarentoSDK.h; sourceTree = "<group>"; };
 		ACF5960C20E1E2FB00EAD7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF5961720E2397900EAD7E3 /* DemoSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF5961920E2397900EAD7E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF5961B20E2397900EAD7E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF5961E20E2397900EAD7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF5962020E2397900EAD7E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF5962320E2397900EAD7E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACF5962520E2397900EAD7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF5962A20E4972E00EAD7E3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +322,291 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7708F220E72B010016CFF3 /* Accelerate.framework in Frameworks */,
+				AC7708F020E72AFB0016CFF3 /* AVFoundation.framework in Frameworks */,
+				AC7708EE20E72AF20016CFF3 /* CoreBluetooth.framework in Frameworks */,
+				AC7708EC20E72AEC0016CFF3 /* CoreGraphics.framework in Frameworks */,
+				AC7708EA20E72ADF0016CFF3 /* CoreLocation.framework in Frameworks */,
+				AC7708E820E72ADA0016CFF3 /* CoreText.framework in Frameworks */,
+				ACCF404C20E78F6200111CBD /* GoogleMaps.framework in Frameworks */,
+				AC5880EF20EF058D00F4C70B /* Alamofire.framework in Frameworks */,
+				AC7708E620E72AD20016CFF3 /* GLKit.framework in Frameworks */,
+				AC7708E420E72ACB0016CFF3 /* ImageIO.framework in Frameworks */,
+				AC7708E220E72AC30016CFF3 /* libc++.tbd in Frameworks */,
+				AC7708E020E72AB70016CFF3 /* libicucore.tbd in Frameworks */,
+				ACCF404B20E78F6200111CBD /* GoogleMapsCore.framework in Frameworks */,
+				AC7708DE20E72A8B0016CFF3 /* OpenGLES.framework in Frameworks */,
+				ACCF404820E78F5500111CBD /* GoogleMapsBase.framework in Frameworks */,
+				AC7708DC20E72A850016CFF3 /* QuartzCore.framework in Frameworks */,
+				ACCF404620E78F4500111CBD /* GooglePlaces.framework in Frameworks */,
+				AC7708DA20E72A790016CFF3 /* Security.framework in Frameworks */,
+				AC7708D820E72A200016CFF3 /* libz.1.2.8.tbd in Frameworks */,
+				AC7708D620E72A0C0016CFF3 /* CoreData.framework in Frameworks */,
+				AC7708D420E72A060016CFF3 /* SystemConfiguration.framework in Frameworks */,
+				AC7708D220E729B30016CFF3 /* MapKit.framework in Frameworks */,
+				AC77084020E644100016CFF3 /* SVProgressHUD.framework in Frameworks */,
+				AC77082E20E6341B0016CFF3 /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF5961420E2397900EAD7E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC77090A20E72BFE0016CFF3 /* CoreTelephony.framework in Frameworks */,
+				AC77090820E72BF00016CFF3 /* libicucore.tbd in Frameworks */,
+				AC77090720E72BEA0016CFF3 /* libz.1.2.8.tbd in Frameworks */,
+				AC77090620E72BE50016CFF3 /* libc++.tbd in Frameworks */,
+				AC77090520E72BD70016CFF3 /* ImageIO.framework in Frameworks */,
+				AC77090420E72BD10016CFF3 /* GLKit.framework in Frameworks */,
+				AC77090320E72BBE0016CFF3 /* SystemConfiguration.framework in Frameworks */,
+				AC5880F020EF5E4600F4C70B /* Alamofire.framework in Frameworks */,
+				AC77090220E72BBA0016CFF3 /* Security.framework in Frameworks */,
+				AC77090120E72BB60016CFF3 /* QuartzCore.framework in Frameworks */,
+				AC77090020E72BB10016CFF3 /* OpenGLES.framework in Frameworks */,
+				AC7708FD20E72BA60016CFF3 /* CoreFoundation.framework in Frameworks */,
+				AC7708FE20E72BA60016CFF3 /* Foundation.framework in Frameworks */,
+				AC7708FF20E72BA60016CFF3 /* CoreImage.framework in Frameworks */,
+				AC7708F420E72BA50016CFF3 /* AVFoundation.framework in Frameworks */,
+				AC7708F520E72BA50016CFF3 /* CoreBluetooth.framework in Frameworks */,
+				AC7708F620E72BA50016CFF3 /* CoreData.framework in Frameworks */,
+				AC7708F720E72BA50016CFF3 /* CoreGraphics.framework in Frameworks */,
+				AC7708F820E72BA50016CFF3 /* CoreLocation.framework in Frameworks */,
+				AC7708F920E72BA50016CFF3 /* CoreText.framework in Frameworks */,
+				AC7708F320E72B760016CFF3 /* Accelerate.framework in Frameworks */,
+				ACF5963020E499DB00EAD7E3 /* CarentoSDK.framework in Frameworks */,
+				AC77083120E6346D0016CFF3 /* SDWebImage.framework in Frameworks */,
+				AC77084320E6443F0016CFF3 /* SVProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC7707F320E5DBFA0016CFF3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AC77080020E5E3B40016CFF3 /* utils */,
+				AC7707FD20E5E1C20016CFF3 /* http */,
+				AC7707F420E5DBFA0016CFF3 /* libs */,
+				AC77082520E6299F0016CFF3 /* modals */,
+				AC77082820E62EEE0016CFF3 /* views */,
+				AC7707F820E5DC400016CFF3 /* routes */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AC7707F420E5DBFA0016CFF3 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF405820E9CA1800111CBD /* CustomizeAnimations */,
+				ACCF405320E7993900111CBD /* FontLoader */,
+				AC77083E20E642010016CFF3 /* SVProgressHUD */,
+				AC77083520E6419B0016CFF3 /* DateTimePicker */,
+				AC77081620E627740016CFF3 /* CRNotifications */,
+				AC77081120E60F600016CFF3 /* FWActivityIndicatorView */,
+				AC5880EE20EF058D00F4C70B /* Alamofire.framework */,
+				AC77083F20E644100016CFF3 /* SVProgressHUD.framework */,
+				AC77082D20E6341A0016CFF3 /* SDWebImage.framework */,
+				ACCF404520E78F4500111CBD /* GooglePlaces.framework */,
+				ACCF404D20E78F6F00111CBD /* GooglePlaces.bundle */,
+				ACCF404720E78F5400111CBD /* GoogleMapsBase.framework */,
+				ACCF404A20E78F6200111CBD /* GoogleMaps.framework */,
+				ACCF404920E78F6100111CBD /* GoogleMapsCore.framework */,
+				ACCF404F20E78F7C00111CBD /* GoogleMaps.bundle */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		AC7707F820E5DC400016CFF3 /* routes */ = {
+			isa = PBXGroup;
+			children = (
+				AC77080720E5E6F40016CFF3 /* CarentoSDKManager.swift */,
+				AC77084520E6447F0016CFF3 /* BaseViewController.swift */,
+				AC77080F20E5ECE20016CFF3 /* SDKNavigationController.swift */,
+				AC7707F920E5DC400016CFF3 /* ServiceListViewController.swift */,
+				AC77083320E63F5E0016CFF3 /* PriceRouteViewController.swift */,
+				AC7708B120E6999D0016CFF3 /* SearchLocationViewController.swift */,
+				AC7708B020E6999C0016CFF3 /* SearchResultsController.swift */,
+			);
+			path = routes;
+			sourceTree = "<group>";
+		};
+		AC7707FD20E5E1C20016CFF3 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				AC7707FE20E5E1CD0016CFF3 /* HTTPClient.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		AC77080020E5E3B40016CFF3 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC77080120E5E3BC0016CFF3 /* ErrorHandle.swift */,
+				AC77080320E5E48A0016CFF3 /* Global.swift */,
+				AC77080520E5E4BD0016CFF3 /* Utils.swift */,
+				AC77080D20E5E9A30016CFF3 /* Constants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		AC77081120E60F600016CFF3 /* FWActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				AC77081220E60F600016CFF3 /* FWActivityIndicatorView.h */,
+				AC77081320E60F600016CFF3 /* FWActivityIndicatorView.m */,
+			);
+			path = FWActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		AC77081620E627740016CFF3 /* CRNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				AC77081720E627740016CFF3 /* Assets */,
+				AC77081920E627740016CFF3 /* Classes */,
+			);
+			path = CRNotifications;
+			sourceTree = "<group>";
+		};
+		AC77081720E627740016CFF3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AC77081820E627740016CFF3 /* CRNotificationsMedia.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AC77081920E627740016CFF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC77081A20E627740016CFF3 /* Colors.swift */,
+				AC77081B20E627740016CFF3 /* CRNotification.swift */,
+				AC77081C20E627740016CFF3 /* CRNotifications.swift */,
+				AC77081D20E627740016CFF3 /* CRNotificationType.swift */,
+				AC77081E20E627740016CFF3 /* DeviceManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AC77082520E6299F0016CFF3 /* modals */ = {
+			isa = PBXGroup;
+			children = (
+				AC77084D20E645540016CFF3 /* BookObject.swift */,
+				AC77082620E629AB0016CFF3 /* ServiceObject.swift */,
+				AC7708AC20E645B00016CFF3 /* DriverObject.swift */,
+				AC7708AE20E645BA0016CFF3 /* RoutingObject.swift */,
+			);
+			path = modals;
+			sourceTree = "<group>";
+		};
+		AC77082820E62EEE0016CFF3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF405B20E9D15B00111CBD /* PassThroughTableView.swift */,
+				AC77084920E644C30016CFF3 /* CarTypeView.swift */,
+				AC77084A20E644C30016CFF3 /* CheckboxListView.swift */,
+				AC77084720E644AB0016CFF3 /* CRTLocationInputTextField.swift */,
+				AC77082920E62EF90016CFF3 /* CityServiceCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		AC77083520E6419B0016CFF3 /* DateTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				AC77083620E641AA0016CFF3 /* DateCollectionViewCell.swift */,
+				AC77083720E641AB0016CFF3 /* DateTimePicker.swift */,
+				AC77083820E641AB0016CFF3 /* FullDateCollectionViewCell.swift */,
+				AC77083920E641AB0016CFF3 /* StepCollectionViewFlowLayout.swift */,
+			);
+			path = DateTimePicker;
+			sourceTree = "<group>";
+		};
+		AC77083E20E642010016CFF3 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		AC77084F20E645950016CFF3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AC77085020E645950016CFF3 /* NotoSerif-Bold.ttf */,
+				AC77085120E645950016CFF3 /* NotoSerif-BoldItalic.ttf */,
+				AC77085220E645950016CFF3 /* NotoSerif-Italic.ttf */,
+				AC77085320E645950016CFF3 /* NotoSerif-Regular.ttf */,
+				AC77085420E645950016CFF3 /* SFCompactDisplay-Black.ttf */,
+				AC77085520E645950016CFF3 /* SFCompactDisplay-Bold.ttf */,
+				AC77085620E645950016CFF3 /* SFCompactDisplay-Heavy.ttf */,
+				AC77085720E645950016CFF3 /* SFCompactDisplay-Light.ttf */,
+				AC77085820E645950016CFF3 /* SFCompactDisplay-Medium.ttf */,
+				AC77085920E645950016CFF3 /* SFCompactDisplay-Regular.ttf */,
+				AC77085A20E645950016CFF3 /* SFCompactDisplay-Semibold.ttf */,
+				AC77085B20E645950016CFF3 /* SFCompactDisplay-Thin.ttf */,
+				AC77085C20E645950016CFF3 /* SFCompactDisplay-Ultralight.ttf */,
+				AC77085D20E645950016CFF3 /* SFCompactText-Bold.ttf */,
+				AC77085E20E645950016CFF3 /* SFCompactText-BoldItalic.ttf */,
+				AC77085F20E645950016CFF3 /* SFCompactText-Heavy.ttf */,
+				AC77086020E645950016CFF3 /* SFCompactText-HeavyItalic.ttf */,
+				AC77086120E645950016CFF3 /* SFCompactText-Light.ttf */,
+				AC77086220E645950016CFF3 /* SFCompactText-LightItalic.ttf */,
+				AC77086320E645950016CFF3 /* SFCompactText-Medium.ttf */,
+				AC77086420E645950016CFF3 /* SFCompactText-MediumItalic.ttf */,
+				AC77086520E645950016CFF3 /* SFCompactText-Regular.ttf */,
+				AC77086620E645950016CFF3 /* SFCompactText-RegularItalic.ttf */,
+				AC77086720E645950016CFF3 /* SFCompactText-Semibold.ttf */,
+				AC77086820E645950016CFF3 /* SFCompactText-SemiboldItalic.ttf */,
+				AC77086920E645950016CFF3 /* SFUIDisplay-Black.ttf */,
+				AC77086A20E645950016CFF3 /* SFUIDisplay-Bold.ttf */,
+				AC77086B20E645950016CFF3 /* SFUIDisplay-Heavy.ttf */,
+				AC77086C20E645950016CFF3 /* SFUIDisplay-Light.ttf */,
+				AC77086D20E645950016CFF3 /* SFUIDisplay-Medium.ttf */,
+				AC77086E20E645950016CFF3 /* SFUIDisplay-Regular.ttf */,
+				AC77086F20E645950016CFF3 /* SFUIDisplay-Semibold.ttf */,
+				AC77087020E645950016CFF3 /* SFUIDisplay-Thin.ttf */,
+				AC77087120E645950016CFF3 /* SFUIDisplay-Ultralight.ttf */,
+				AC77087220E645950016CFF3 /* SFUIText-Bold.ttf */,
+				AC77087320E645950016CFF3 /* SFUIText-BoldItalic.ttf */,
+				AC77087420E645950016CFF3 /* SFUIText-Heavy.ttf */,
+				AC77087520E645950016CFF3 /* SFUIText-HeavyItalic.ttf */,
+				AC77087620E645950016CFF3 /* SFUIText-Light.ttf */,
+				AC77087720E645950016CFF3 /* SFUIText-LightItalic.ttf */,
+				AC77087820E645950016CFF3 /* SFUIText-Medium.ttf */,
+				AC77087920E645950016CFF3 /* SFUIText-MediumItalic.ttf */,
+				AC77087A20E645950016CFF3 /* SFUIText-Regular.ttf */,
+				AC77087B20E645950016CFF3 /* SFUIText-RegularItalic.ttf */,
+				AC77087C20E645950016CFF3 /* SFUIText-Semibold.ttf */,
+				AC77087D20E645950016CFF3 /* SFUIText-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ACCF405320E7993900111CBD /* FontLoader */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF405420E7994B00111CBD /* FontLoader.h */,
+				ACCF405520E7994B00111CBD /* FontLoader.m */,
+			);
+			path = FontLoader;
+			sourceTree = "<group>";
+		};
+		ACCF405820E9CA1800111CBD /* CustomizeAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF405920E9CA1F00111CBD /* CustomAnimation.swift */,
+			);
+			path = CustomizeAnimations;
+			sourceTree = "<group>";
+		};
 		ACF595FE20E1E2FA00EAD7E3 = {
 			isa = PBXGroup;
 			children = (
 				ACF5960A20E1E2FB00EAD7E3 /* CarentoSDK */,
+				ACF5961820E2397900EAD7E3 /* DemoSDK */,
 				ACF5960920E1E2FB00EAD7E3 /* Products */,
+				ACF5962E20E499C000EAD7E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +614,7 @@
 			isa = PBXGroup;
 			children = (
 				ACF5960820E1E2FB00EAD7E3 /* CarentoSDK.framework */,
+				ACF5961720E2397900EAD7E3 /* DemoSDK.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +624,53 @@
 			children = (
 				ACF5960B20E1E2FB00EAD7E3 /* CarentoSDK.h */,
 				ACF5960C20E1E2FB00EAD7E3 /* Info.plist */,
+				ACF5962A20E4972E00EAD7E3 /* Media.xcassets */,
+				AC77082B20E62F110016CFF3 /* CarentoSDK.storyboard */,
+				AC77084F20E645950016CFF3 /* Fonts */,
+				AC7707F320E5DBFA0016CFF3 /* src */,
 			);
 			path = CarentoSDK;
+			sourceTree = "<group>";
+		};
+		ACF5961820E2397900EAD7E3 /* DemoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				ACF5961920E2397900EAD7E3 /* AppDelegate.swift */,
+				ACF5961B20E2397900EAD7E3 /* ViewController.swift */,
+				ACF5961D20E2397900EAD7E3 /* Main.storyboard */,
+				ACF5962020E2397900EAD7E3 /* Assets.xcassets */,
+				ACF5962220E2397900EAD7E3 /* LaunchScreen.storyboard */,
+				ACF5962520E2397900EAD7E3 /* Info.plist */,
+			);
+			path = DemoSDK;
+			sourceTree = "<group>";
+		};
+		ACF5962E20E499C000EAD7E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC77090920E72BFE0016CFF3 /* CoreTelephony.framework */,
+				AC7708FA20E72BA50016CFF3 /* CoreFoundation.framework */,
+				AC7708FC20E72BA60016CFF3 /* CoreImage.framework */,
+				AC7708FB20E72BA50016CFF3 /* Foundation.framework */,
+				AC7708F120E72B010016CFF3 /* Accelerate.framework */,
+				AC7708EF20E72AFB0016CFF3 /* AVFoundation.framework */,
+				AC7708ED20E72AF20016CFF3 /* CoreBluetooth.framework */,
+				AC7708EB20E72AEC0016CFF3 /* CoreGraphics.framework */,
+				AC7708E920E72ADF0016CFF3 /* CoreLocation.framework */,
+				AC7708E720E72ADA0016CFF3 /* CoreText.framework */,
+				AC7708E520E72AD20016CFF3 /* GLKit.framework */,
+				AC7708E320E72ACB0016CFF3 /* ImageIO.framework */,
+				AC7708E120E72AC30016CFF3 /* libc++.tbd */,
+				AC7708DF20E72AB70016CFF3 /* libicucore.tbd */,
+				AC7708DD20E72A8B0016CFF3 /* OpenGLES.framework */,
+				AC7708DB20E72A850016CFF3 /* QuartzCore.framework */,
+				AC7708D920E72A790016CFF3 /* Security.framework */,
+				AC7708D720E72A200016CFF3 /* libz.1.2.8.tbd */,
+				AC7708D520E72A0C0016CFF3 /* CoreData.framework */,
+				AC7708D320E72A060016CFF3 /* SystemConfiguration.framework */,
+				AC7708D120E729B30016CFF3 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +681,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF5960D20E1E2FB00EAD7E3 /* CarentoSDK.h in Headers */,
+				ACCF405620E7994B00111CBD /* FontLoader.h in Headers */,
+				AC77081420E60F600016CFF3 /* FWActivityIndicatorView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,16 +707,42 @@
 			productReference = ACF5960820E1E2FB00EAD7E3 /* CarentoSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		ACF5961620E2397900EAD7E3 /* DemoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF5962620E2397900EAD7E3 /* Build configuration list for PBXNativeTarget "DemoSDK" */;
+			buildPhases = (
+				ACF5961320E2397900EAD7E3 /* Sources */,
+				ACF5961420E2397900EAD7E3 /* Frameworks */,
+				ACF5961520E2397900EAD7E3 /* Resources */,
+				ACF5963420E499DC00EAD7E3 /* Embed Frameworks */,
+				AC7708D020E7299F0016CFF3 /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF5963320E499DB00EAD7E3 /* PBXTargetDependency */,
+			);
+			name = DemoSDK;
+			productName = DemoSDK;
+			productReference = ACF5961720E2397900EAD7E3 /* DemoSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		ACF595FF20E1E2FA00EAD7E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Carento;
 				TargetAttributes = {
 					ACF5960720E1E2FB00EAD7E3 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					ACF5961620E2397900EAD7E3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -105,6 +754,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = ACF595FE20E1E2FA00EAD7E3;
 			productRefGroup = ACF5960920E1E2FB00EAD7E3 /* Products */;
@@ -112,6 +762,7 @@
 			projectRoot = "";
 			targets = (
 				ACF5960720E1E2FB00EAD7E3 /* CarentoSDK */,
+				ACF5961620E2397900EAD7E3 /* DemoSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +772,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC77088D20E645950016CFF3 /* SFCompactText-Heavy.ttf in Resources */,
+				AC77088920E645950016CFF3 /* SFCompactDisplay-Thin.ttf in Resources */,
+				AC77081F20E627740016CFF3 /* CRNotificationsMedia.xcassets in Resources */,
+				AC7708A820E645950016CFF3 /* SFUIText-Regular.ttf in Resources */,
+				AC77089A20E645950016CFF3 /* SFUIDisplay-Light.ttf in Resources */,
+				AC7708A220E645950016CFF3 /* SFUIText-Heavy.ttf in Resources */,
+				AC77089220E645950016CFF3 /* SFCompactText-MediumItalic.ttf in Resources */,
+				AC77088B20E645950016CFF3 /* SFCompactText-Bold.ttf in Resources */,
+				AC77089820E645950016CFF3 /* SFUIDisplay-Bold.ttf in Resources */,
+				AC77087F20E645950016CFF3 /* NotoSerif-BoldItalic.ttf in Resources */,
+				AC77089D20E645950016CFF3 /* SFUIDisplay-Semibold.ttf in Resources */,
+				AC77089620E645950016CFF3 /* SFCompactText-SemiboldItalic.ttf in Resources */,
+				AC77089020E645950016CFF3 /* SFCompactText-LightItalic.ttf in Resources */,
+				AC77089920E645950016CFF3 /* SFUIDisplay-Heavy.ttf in Resources */,
+				AC7708A620E645950016CFF3 /* SFUIText-Medium.ttf in Resources */,
+				AC77088720E645950016CFF3 /* SFCompactDisplay-Regular.ttf in Resources */,
+				AC7708A720E645950016CFF3 /* SFUIText-MediumItalic.ttf in Resources */,
+				AC77089E20E645950016CFF3 /* SFUIDisplay-Thin.ttf in Resources */,
+				ACCF405020E78F7C00111CBD /* GoogleMaps.bundle in Resources */,
+				AC7708AB20E645950016CFF3 /* SFUIText-SemiboldItalic.ttf in Resources */,
+				AC77088820E645950016CFF3 /* SFCompactDisplay-Semibold.ttf in Resources */,
+				AC77089B20E645950016CFF3 /* SFUIDisplay-Medium.ttf in Resources */,
+				AC77088020E645950016CFF3 /* NotoSerif-Italic.ttf in Resources */,
+				AC77089320E645950016CFF3 /* SFCompactText-Regular.ttf in Resources */,
+				AC77088120E645950016CFF3 /* NotoSerif-Regular.ttf in Resources */,
+				ACCF404E20E78F6F00111CBD /* GooglePlaces.bundle in Resources */,
+				AC77087E20E645950016CFF3 /* NotoSerif-Bold.ttf in Resources */,
+				AC77082C20E62F110016CFF3 /* CarentoSDK.storyboard in Resources */,
+				AC7708AA20E645950016CFF3 /* SFUIText-Semibold.ttf in Resources */,
+				AC77088420E645950016CFF3 /* SFCompactDisplay-Heavy.ttf in Resources */,
+				AC7708A120E645950016CFF3 /* SFUIText-BoldItalic.ttf in Resources */,
+				AC77088220E645950016CFF3 /* SFCompactDisplay-Black.ttf in Resources */,
+				ACF5962B20E4972E00EAD7E3 /* Media.xcassets in Resources */,
+				AC77089420E645950016CFF3 /* SFCompactText-RegularItalic.ttf in Resources */,
+				AC77089120E645950016CFF3 /* SFCompactText-Medium.ttf in Resources */,
+				AC77088C20E645950016CFF3 /* SFCompactText-BoldItalic.ttf in Resources */,
+				AC7708A520E645950016CFF3 /* SFUIText-LightItalic.ttf in Resources */,
+				AC77088520E645950016CFF3 /* SFCompactDisplay-Light.ttf in Resources */,
+				AC77088320E645950016CFF3 /* SFCompactDisplay-Bold.ttf in Resources */,
+				AC7708A420E645950016CFF3 /* SFUIText-Light.ttf in Resources */,
+				AC77089520E645950016CFF3 /* SFCompactText-Semibold.ttf in Resources */,
+				AC77088F20E645950016CFF3 /* SFCompactText-Light.ttf in Resources */,
+				AC7708A020E645950016CFF3 /* SFUIText-Bold.ttf in Resources */,
+				AC77089720E645950016CFF3 /* SFUIDisplay-Black.ttf in Resources */,
+				AC77088A20E645950016CFF3 /* SFCompactDisplay-Ultralight.ttf in Resources */,
+				AC7708A920E645950016CFF3 /* SFUIText-RegularItalic.ttf in Resources */,
+				AC77088E20E645950016CFF3 /* SFCompactText-HeavyItalic.ttf in Resources */,
+				AC7708A320E645950016CFF3 /* SFUIText-HeavyItalic.ttf in Resources */,
+				AC77088620E645950016CFF3 /* SFCompactDisplay-Medium.ttf in Resources */,
+				AC77089F20E645950016CFF3 /* SFUIDisplay-Ultralight.ttf in Resources */,
+				AC77089C20E645950016CFF3 /* SFUIDisplay-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF5961520E2397900EAD7E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF5962420E2397900EAD7E3 /* LaunchScreen.storyboard in Resources */,
+				ACF5962120E2397900EAD7E3 /* Assets.xcassets in Resources */,
+				ACF5961F20E2397900EAD7E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,10 +843,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCF405720E7994B00111CBD /* FontLoader.m in Sources */,
+				AC77080620E5E4BD0016CFF3 /* Utils.swift in Sources */,
+				AC77082320E627740016CFF3 /* CRNotificationType.swift in Sources */,
+				AC77083C20E641AB0016CFF3 /* FullDateCollectionViewCell.swift in Sources */,
+				AC77084E20E645540016CFF3 /* BookObject.swift in Sources */,
+				AC77084C20E644C30016CFF3 /* CheckboxListView.swift in Sources */,
+				AC77082020E627740016CFF3 /* Colors.swift in Sources */,
+				AC77080420E5E48A0016CFF3 /* Global.swift in Sources */,
+				AC77080220E5E3BC0016CFF3 /* ErrorHandle.swift in Sources */,
+				AC77082120E627740016CFF3 /* CRNotification.swift in Sources */,
+				AC77080820E5E6F40016CFF3 /* CarentoSDKManager.swift in Sources */,
+				ACCF405A20E9CA1F00111CBD /* CustomAnimation.swift in Sources */,
+				AC77083D20E641AB0016CFF3 /* StepCollectionViewFlowLayout.swift in Sources */,
+				AC77083420E63F5E0016CFF3 /* PriceRouteViewController.swift in Sources */,
+				AC77082420E627740016CFF3 /* DeviceManager.swift in Sources */,
+				ACCF405C20E9D15B00111CBD /* PassThroughTableView.swift in Sources */,
+				AC77080E20E5E9A30016CFF3 /* Constants.swift in Sources */,
+				AC7707FF20E5E1CD0016CFF3 /* HTTPClient.swift in Sources */,
+				AC77084620E6447F0016CFF3 /* BaseViewController.swift in Sources */,
+				AC77082A20E62EFA0016CFF3 /* CityServiceCell.swift in Sources */,
+				AC7708AF20E645BA0016CFF3 /* RoutingObject.swift in Sources */,
+				AC77081020E5ECE20016CFF3 /* SDKNavigationController.swift in Sources */,
+				AC77083B20E641AB0016CFF3 /* DateTimePicker.swift in Sources */,
+				AC7707FA20E5DC400016CFF3 /* ServiceListViewController.swift in Sources */,
+				AC77084820E644AB0016CFF3 /* CRTLocationInputTextField.swift in Sources */,
+				AC77081520E60F600016CFF3 /* FWActivityIndicatorView.m in Sources */,
+				AC7708B220E6999D0016CFF3 /* SearchResultsController.swift in Sources */,
+				AC77082720E629AB0016CFF3 /* ServiceObject.swift in Sources */,
+				AC77083A20E641AB0016CFF3 /* DateCollectionViewCell.swift in Sources */,
+				AC77082220E627740016CFF3 /* CRNotifications.swift in Sources */,
+				AC7708B320E6999D0016CFF3 /* SearchLocationViewController.swift in Sources */,
+				AC77084B20E644C30016CFF3 /* CarTypeView.swift in Sources */,
+				AC7708AD20E645B00016CFF3 /* DriverObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF5961320E2397900EAD7E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF5961C20E2397900EAD7E3 /* ViewController.swift in Sources */,
+				ACF5961A20E2397900EAD7E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF5963320E499DB00EAD7E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF5960720E1E2FB00EAD7E3 /* CarentoSDK */;
+			targetProxy = ACF5963220E499DB00EAD7E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF5961D20E2397900EAD7E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF5961E20E2397900EAD7E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF5962220E2397900EAD7E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF5962320E2397900EAD7E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ACF5960E20E1E2FB00EAD7E3 /* Debug */ = {
@@ -253,6 +1034,7 @@
 		ACF5961120E1E2FB00EAD7E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -260,6 +1042,39 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CarentoSDK/src/libs",
+				);
+				INFOPLIST_FILE = CarentoSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Carento.CarentoSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACF5961220E1E2FB00EAD7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F5RUPGHVKN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CarentoSDK/src/libs",
+				);
 				INFOPLIST_FILE = CarentoSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -269,24 +1084,47 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		ACF5961220E1E2FB00EAD7E3 /* Release */ = {
+		ACF5962720E2397900EAD7E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = F5RUPGHVKN;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CarentoSDK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Carento.CarentoSDK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoSDK",
+					"$(PROJECT_DIR)/CarentoSDK/src/libs",
+				);
+				INFOPLIST_FILE = DemoSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Carento.DemoSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACF5962820E2397900EAD7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5RUPGHVKN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoSDK",
+					"$(PROJECT_DIR)/CarentoSDK/src/libs",
+				);
+				INFOPLIST_FILE = DemoSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Carento.DemoSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,6 +1147,15 @@
 			buildConfigurations = (
 				ACF5961120E1E2FB00EAD7E3 /* Debug */,
 				ACF5961220E1E2FB00EAD7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF5962620E2397900EAD7E3 /* Build configuration list for PBXNativeTarget "DemoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF5962720E2397900EAD7E3 /* Debug */,
+				ACF5962820E2397900EAD7E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
